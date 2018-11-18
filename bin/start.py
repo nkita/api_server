@@ -1,43 +1,17 @@
-# coding:utf-8
+from flask import Flask, request, redirect, url_for
 
-# ログのライブラリ
-import logging
-from logging import getLogger, StreamHandler, Formatter
+app = Flask(__name__)
 
-# --------------------------------
-# 1.loggerの設定
-# --------------------------------
-# loggerオブジェクトの宣言
-logger = getLogger(__name__)
+# root document
+@app.route('/')
+def index():
+	return  "top"
 
-# loggerのログレベル設定(ハンドラに渡すエラーメッセージのレベル)
-# ERRORを設定したためDEBUGは表示されない
-logger.setLevel(logging.ERROR)
+@app.route('/post', methods=['GET', 'POST'])
+def post():
+	title = "aa"
+	return "post"
 
-# --------------------------------
-# 2.handlerの設定
-# --------------------------------
-# handlerの生成
-stream_handler = StreamHandler()
-
-# handlerのログレベル設定(ハンドラが出力するエラーメッセージのレベル)
-stream_handler.setLevel(logging.DEBUG)
-
-# ログ出力フォーマット設定
-handler_format = Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-stream_handler.setFormatter(handler_format)
-
-# --------------------------------
-# 3.loggerにhandlerをセット
-# --------------------------------
-logger.addHandler(stream_handler)
-
-# --------------------------------
-# ログ出力テスト
-# --------------------------------
-
-# こちらDEBUGなため表示されない
-logger.debug("Hello World!")
-
-# こちらはERRORなので表示される
-logger.error("こんにちは 世界！")
+if __name__ == '__main__':
+	app.debug = True
+	app.run(host='0.0.0.0')
