@@ -1,11 +1,16 @@
 # coding:utf-8
 from flask import Flask, request, redirect, url_for
 from lib import nk_log
+from configparser import ConfigParser
+
+config = ConfigParser()
+config.read('ini/config.ini')
 
 # ログ初期設定
 
 app = Flask(__name__)
 logger=nk_log.nk_Log(__name__)
+logger.debug(config["name"]["value"])
 
 # root document
 @app.route('/')
