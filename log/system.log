@@ -266,3 +266,232 @@
 2018-12-16 22:03:16,542 - __main__ - DEBUG - test
 2018-12-16 22:03:16,554 - werkzeug - WARNING -  * Debugger is active!
 2018-12-16 22:03:16,596 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:33:51,084 - __main__ - DEBUG - test
+2018-12-21 00:33:51,231 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:33:51,240 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:33:51,615 - __main__ - DEBUG - test
+2018-12-21 00:33:51,632 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:33:51,705 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:34:04,011 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2018-12-21 00:34:04,036 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:34:04,550 - __main__ - DEBUG - test
+2018-12-21 00:34:04,576 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:34:04,618 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:34:05,894 - __main__ - DEBUG - test
+2018-12-21 00:34:05,930 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:34:05,938 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:34:06,443 - __main__ - DEBUG - test
+2018-12-21 00:34:06,470 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:34:06,516 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:34:47,059 - __main__ - DEBUG - test
+2018-12-21 00:34:47,090 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:34:47,100 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:34:47,584 - __main__ - DEBUG - test
+2018-12-21 00:34:47,602 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:34:47,653 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:35:20,244 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:35:20,290 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:35:20,809 - __main__ - DEBUG - test
+2018-12-21 00:35:20,837 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:35:20,919 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:35:24,208 - __main__ - DEBUG - test
+2018-12-21 00:35:24,228 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:35:24,234 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:35:24,656 - __main__ - DEBUG - test
+2018-12-21 00:35:24,673 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:35:24,705 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:37:28,773 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:37:28,839 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:37:29,292 - __main__ - DEBUG - test
+2018-12-21 00:38:51,161 - __main__ - DEBUG - test
+2018-12-21 00:38:51,241 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:38:51,251 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:38:51,537 - __main__ - DEBUG - test
+2018-12-21 00:38:51,607 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:38:51,642 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:38:58,795 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:38:58,844 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:38:59,397 - __main__ - DEBUG - test
+2018-12-21 00:38:59,494 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:38:59,533 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:39:22,959 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:39:22,981 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:39:23,308 - __main__ - DEBUG - test
+2018-12-21 00:39:23,394 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:39:23,430 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:39:39,727 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:39:39,751 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:39:40,161 - __main__ - DEBUG - test
+2018-12-21 00:39:40,259 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:39:40,299 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:40:15,905 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:40:15,934 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:40:16,431 - __main__ - DEBUG - test
+2018-12-21 00:41:53,158 - __main__ - DEBUG - test
+2018-12-21 00:42:36,979 - __main__ - DEBUG - test
+2018-12-21 00:42:37,099 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:42:37,110 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:42:37,392 - __main__ - DEBUG - test
+2018-12-21 00:42:37,457 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:42:37,490 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:42:53,790 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:42:53,826 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:42:54,473 - __main__ - DEBUG - test
+2018-12-21 00:42:54,569 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:42:54,605 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:42:57,356 - __main__ - DEBUG - test
+2018-12-21 00:42:57,420 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:42:57,426 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:42:57,686 - __main__ - DEBUG - test
+2018-12-21 00:42:57,746 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:42:57,772 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:43:08,970 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:43:09,017 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:43:15,149 - __main__ - DEBUG - test
+2018-12-21 00:43:15,229 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:43:15,237 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:43:15,508 - __main__ - DEBUG - test
+2018-12-21 00:43:15,577 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:43:15,612 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:01,372 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:01,445 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:01,933 - __main__ - DEBUG - test
+2018-12-21 00:44:02,075 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:02,116 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:04,480 - __main__ - DEBUG - test
+2018-12-21 00:44:04,547 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:44:04,553 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:04,812 - __main__ - DEBUG - test
+2018-12-21 00:44:04,873 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:04,906 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:18,146 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:18,167 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:18,594 - __main__ - DEBUG - test
+2018-12-21 00:44:18,672 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:18,703 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:39,057 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:39,080 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:39,455 - __main__ - DEBUG - test
+2018-12-21 00:44:39,550 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:39,583 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:48,755 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:48,778 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:49,213 - __main__ - DEBUG - test
+2018-12-21 00:44:49,313 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:49,352 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:53,458 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:53,484 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:53,784 - __main__ - DEBUG - test
+2018-12-21 00:44:53,861 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:53,901 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:54,935 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:44:54,959 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:55,382 - __main__ - DEBUG - test
+2018-12-21 00:44:55,482 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:55,521 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:44:57,404 - __main__ - DEBUG - test
+2018-12-21 00:44:57,489 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:44:57,497 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:44:57,758 - __main__ - DEBUG - test
+2018-12-21 00:44:57,819 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:44:57,851 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:45:12,349 - __main__ - DEBUG - test
+2018-12-21 00:45:12,436 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:45:12,445 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:45:12,722 - __main__ - DEBUG - test
+2018-12-21 00:45:12,790 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:45:12,821 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:45:20,220 - __main__ - DEBUG - test
+2018-12-21 00:45:20,309 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:45:20,319 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:45:20,620 - __main__ - DEBUG - test
+2018-12-21 00:45:20,678 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:45:20,703 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:45:30,858 - __main__ - DEBUG - test
+2018-12-21 00:45:30,950 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:45:30,956 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:45:31,271 - __main__ - DEBUG - test
+2018-12-21 00:45:31,338 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:45:31,369 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:45:43,564 - __main__ - DEBUG - test
+2018-12-21 00:45:43,657 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:45:43,663 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:45:43,960 - __main__ - DEBUG - test
+2018-12-21 00:45:44,023 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:45:44,055 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:45:52,208 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:45:52,241 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:45:52,663 - __main__ - DEBUG - test
+2018-12-21 00:45:52,752 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:45:52,807 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:47:35,551 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:47:35,620 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:47:36,037 - __main__ - DEBUG - test
+2018-12-21 00:47:59,235 - __main__ - DEBUG - test
+2018-12-21 00:48:19,065 - __main__ - DEBUG - test
+2018-12-21 00:48:19,171 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:48:19,183 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:48:19,529 - __main__ - DEBUG - test
+2018-12-21 00:48:19,628 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:48:19,675 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:48:36,976 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:48:37,014 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:48:37,474 - __main__ - DEBUG - test
+2018-12-21 00:48:37,972 - __main__ - DEBUG - test
+2018-12-21 00:48:46,956 - __main__ - DEBUG - test
+2018-12-21 00:48:47,029 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:48:47,034 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:48:47,330 - __main__ - DEBUG - test
+2018-12-21 00:48:47,400 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:48:47,443 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:49:22,010 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:49:22,068 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:49:22,581 - __main__ - DEBUG - test
+2018-12-21 00:49:22,682 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:49:22,729 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:49:24,764 - __main__ - DEBUG - test
+2018-12-21 00:49:24,833 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:49:24,843 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:49:25,111 - __main__ - DEBUG - test
+2018-12-21 00:49:25,162 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:49:25,188 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:49:33,357 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:49:33,415 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:49:33,848 - __main__ - DEBUG - test
+2018-12-21 00:49:33,928 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:49:33,968 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:49:55,347 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:49:55,375 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:49:55,783 - __main__ - DEBUG - test
+2018-12-21 00:49:55,893 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:49:55,955 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:49:57,004 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:49:57,049 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:49:57,419 - __main__ - DEBUG - test
+2018-12-21 00:49:57,513 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:49:57,543 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:50:01,529 - __main__ - DEBUG - test
+2018-12-21 00:50:01,594 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:50:01,602 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:50:01,895 - __main__ - DEBUG - test
+2018-12-21 00:50:01,982 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:50:02,011 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:50:32,554 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:50:32,577 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:51:00,917 - __main__ - DEBUG - test
+2018-12-21 00:51:01,017 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:51:01,023 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:51:01,301 - __main__ - DEBUG - test
+2018-12-21 00:51:01,363 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:51:01,399 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:51:17,450 - __main__ - DEBUG - test
+2018-12-21 00:51:17,537 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-12-21 00:51:17,545 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:51:17,844 - __main__ - DEBUG - test
+2018-12-21 00:51:17,910 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:51:17,941 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2018-12-21 00:51:25,090 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2018-12-21 00:51:25,121 - werkzeug - INFO -  * Restarting with stat
+2018-12-21 00:51:25,676 - __main__ - DEBUG - test
+2018-12-21 00:51:25,769 - werkzeug - WARNING -  * Debugger is active!
+2018-12-21 00:51:25,808 - werkzeug - INFO -  * Debugger PIN: 766-103-489

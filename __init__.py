@@ -9,10 +9,11 @@ config.read('ini/config.ini')
 # ログ初期設定
 
 app = Flask(__name__)
-logger=nk_log.nk_Log(__name__)
+logger = nk_log.nk_Log(__name__)
 logger.debug(config["name"]["value"])
 
-print("aaaa")
+conn = connect_db.connect_DB(__name__)
+conn.get_data("4c6031fc-0206-11e9-8e9a-0242ac110002")
 
 # root document
 @app.route('/')
