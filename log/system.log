@@ -968,3 +968,487 @@
 2018-12-26 01:08:02,544 - __main__ - DEBUG - test
 2018-12-26 01:08:02,643 - werkzeug - WARNING -  * Debugger is active!
 2018-12-26 01:08:02,688 - werkzeug - INFO -  * Debugger PIN: 766-103-489
+2019-01-04 20:50:32,029 - lib.nk_common - DEBUG - test
+2019-01-04 20:50:44,982 - lib.nk_common - DEBUG - test
+2019-01-04 20:50:45,039 - lib.connect_db - DEBUG - test
+2019-01-04 20:50:45,040 - __main__ - DEBUG - test
+2019-01-04 20:50:45,155 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-04 20:50:45,170 - werkzeug - INFO -  * Restarting with stat
+2019-01-04 20:50:45,424 - lib.nk_common - DEBUG - test
+2019-01-04 20:50:45,441 - lib.connect_db - DEBUG - test
+2019-01-04 20:50:45,442 - __main__ - DEBUG - test
+2019-01-04 20:50:45,465 - werkzeug - WARNING -  * Debugger is active!
+2019-01-04 20:50:45,501 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-04 20:51:01,307 - lib.nk_common - DEBUG - test
+2019-01-04 20:51:01,358 - lib.connect_db - DEBUG - test
+2019-01-04 20:51:01,360 - __main__ - DEBUG - test
+2019-01-04 20:51:01,404 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-04 20:51:01,405 - werkzeug - INFO -  * Restarting with stat
+2019-01-04 20:51:01,677 - lib.nk_common - DEBUG - test
+2019-01-04 20:51:01,699 - lib.connect_db - DEBUG - test
+2019-01-04 20:51:01,700 - __main__ - DEBUG - test
+2019-01-04 20:51:01,722 - werkzeug - WARNING -  * Debugger is active!
+2019-01-04 20:51:01,735 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-04 20:51:09,111 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:51:09,112 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:51:09,245 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET / HTTP/1.1" 500 -
+2019-01-04 20:51:09,387 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-04 20:51:09,388 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-04 20:51:09,406 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-04 20:51:09,621 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-04 20:51:09,940 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-04 20:51:10,138 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:51:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-04 20:52:40,442 - lib.nk_common - DEBUG - test
+2019-01-04 20:52:40,488 - lib.connect_db - DEBUG - test
+2019-01-04 20:52:40,490 - __main__ - DEBUG - test
+2019-01-04 20:52:40,554 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-04 20:52:40,556 - werkzeug - INFO -  * Restarting with stat
+2019-01-04 20:52:41,054 - lib.nk_common - DEBUG - test
+2019-01-04 20:52:41,086 - lib.connect_db - DEBUG - test
+2019-01-04 20:52:41,090 - __main__ - DEBUG - test
+2019-01-04 20:52:41,145 - werkzeug - WARNING -  * Debugger is active!
+2019-01-04 20:52:41,174 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-04 20:52:52,066 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:52:52,066 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:52:52,370 - lib.connect_db - ERROR - column "modify_date" does not exist
+LINE 1: SELECT * FROM tb_json order by modify_date desc limit 100 of...
+                                       ^
+
+2019-01-04 20:52:52,371 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:52:52] "GET / HTTP/1.1" 200 -
+2019-01-04 20:52:52,806 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:52:52] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 20:58:38,516 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:58:38,519 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 20:58:38,640 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-04 20:58:38,647 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:58:38] "GET / HTTP/1.1" 200 -
+2019-01-04 20:58:38,997 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:58:38] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 20:58:57,740 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='58435fc6-0206-11e9-8e9a-0242ac110002'"
+2019-01-04 20:58:57,743 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:58:57] "GET /58435fc6-0206-11e9-8e9a-0242ac110002 HTTP/1.1" 200 -
+2019-01-04 20:58:58,056 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:58:58] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 20:59:04,122 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:59:04] "GET /58435fc6-0206-11e9-8e9a-0242ac110002b HTTP/1.1" 200 -
+2019-01-04 20:59:04,350 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:59:04] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 20:59:08,587 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='58435fc6-0206-11e9-8e9a-0242ac110003'"
+2019-01-04 20:59:08,590 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:59:08] "GET /58435fc6-0206-11e9-8e9a-0242ac110003 HTTP/1.1" 200 -
+2019-01-04 20:59:08,829 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 20:59:08] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 21:01:36,780 - lib.nk_common - DEBUG - test
+2019-01-04 21:01:36,820 - lib.connect_db - DEBUG - test
+2019-01-04 21:01:36,822 - __main__ - DEBUG - test
+2019-01-04 21:01:36,869 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-04 21:01:36,871 - werkzeug - INFO -  * Restarting with stat
+2019-01-04 21:01:37,236 - lib.nk_common - DEBUG - test
+2019-01-04 21:01:37,262 - lib.connect_db - DEBUG - test
+2019-01-04 21:01:37,266 - __main__ - DEBUG - test
+2019-01-04 21:01:37,302 - werkzeug - WARNING -  * Debugger is active!
+2019-01-04 21:01:37,328 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-04 21:02:04,553 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:04] "POST / HTTP/1.1" 200 -
+2019-01-04 21:02:24,419 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='58435fc6-0206-11e9-8e9a-0242ac110003'"
+2019-01-04 21:02:24,424 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:24] "GET /58435fc6-0206-11e9-8e9a-0242ac110003 HTTP/1.1" 200 -
+2019-01-04 21:02:24,779 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:24] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 21:02:30,083 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 21:02:30,083 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 21:02:30,155 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-04 21:02:30,161 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:30] "GET / HTTP/1.1" 200 -
+2019-01-04 21:02:30,455 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:30] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-04 21:02:38,899 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 21:02:38,899 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-04 21:02:38,970 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-04 21:02:38,974 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:38] "GET / HTTP/1.1" 200 -
+2019-01-04 21:02:39,346 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2019 21:02:39] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 01:16:21,977 - lib.nk_common - DEBUG - test
+2019-01-05 01:16:22,170 - lib.connect_db - DEBUG - test
+2019-01-05 01:16:22,171 - __main__ - DEBUG - test
+2019-01-05 01:16:22,341 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-05 01:16:22,345 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 01:16:22,742 - lib.nk_common - DEBUG - test
+2019-01-05 01:16:22,765 - lib.connect_db - DEBUG - test
+2019-01-05 01:16:22,768 - __main__ - DEBUG - test
+2019-01-05 01:16:22,800 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 01:16:22,843 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 01:17:02,833 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 01:17:02] "GET /favicon.ico HTTP/1.1" 500 -
+2019-01-05 02:18:44,890 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:18:44,891 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:18:44,922 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:44] "GET / HTTP/1.1" 500 -
+2019-01-05 02:18:45,054 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-05 02:18:45,062 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-05 02:18:45,097 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-05 02:18:45,219 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-05 02:18:45,424 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-05 02:18:45,635 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:18:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-05 02:19:08,344 - lib.nk_common - DEBUG - test
+2019-01-05 02:19:08,413 - lib.connect_db - DEBUG - test
+2019-01-05 02:19:08,417 - __main__ - DEBUG - test
+2019-01-05 02:19:08,470 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-05 02:19:08,472 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:19:08,800 - lib.nk_common - DEBUG - test
+2019-01-05 02:19:08,825 - lib.connect_db - DEBUG - test
+2019-01-05 02:19:08,828 - __main__ - DEBUG - test
+2019-01-05 02:19:08,865 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:19:08,891 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:19:23,358 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:23,359 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:23,445 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:23] "GET / HTTP/1.1" 500 -
+2019-01-05 02:19:23,598 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-05 02:19:23,599 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-05 02:19:23,599 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:23] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-05 02:19:23,984 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:23] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-05 02:19:24,302 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-05 02:19:24,644 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-05 02:19:52,614 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:52,616 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:52,919 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:19:52,927 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:52] "GET / HTTP/1.1" 200 -
+2019-01-05 02:19:53,396 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:53] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:19:55,531 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:55,531 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:19:55,599 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:19:55,602 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:55] "GET / HTTP/1.1" 200 -
+2019-01-05 02:19:55,837 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:19:55] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:23:35,652 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:23:35,735 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 1 offset 0'
+2019-01-05 02:23:35,739 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:35] "GET /?gr=1 HTTP/1.1" 200 -
+2019-01-05 02:23:36,113 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:36] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:23:39,775 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:23:39,847 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 2 offset 0'
+2019-01-05 02:23:39,850 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:39] "GET /?gr=2 HTTP/1.1" 200 -
+2019-01-05 02:23:40,239 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:40] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:23:44,711 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 2 offset 2'
+2019-01-05 02:23:44,714 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:44] "GET /?gr=2&pg=2 HTTP/1.1" 200 -
+2019-01-05 02:23:44,874 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:44] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:23:48,445 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 2 offset 1'
+2019-01-05 02:23:48,448 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:48] "GET /?gr=2&pg=1 HTTP/1.1" 200 -
+2019-01-05 02:23:48,725 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:48] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:23:55,887 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 2'
+2019-01-05 02:23:55,889 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:55] "GET /?gr=3&pg=2 HTTP/1.1" 200 -
+2019-01-05 02:23:56,110 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:23:56] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:24:02,326 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:24:02,328 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:24:02] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:24:02,629 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:24:02] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:31:33,515 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:31:33,524 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:31:33] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:31:33,855 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:31:33] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:31:37,459 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:31:37,461 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:31:37] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:31:37,701 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:31:37] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:35:18,814 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:35:18,919 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:35:19,711 - lib.nk_common - DEBUG - test
+2019-01-05 02:35:19,739 - lib.connect_db - DEBUG - test
+2019-01-05 02:35:19,740 - __main__ - DEBUG - test
+2019-01-05 02:35:19,836 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:35:19,890 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:35:44,375 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:35:44,441 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:35:45,022 - lib.nk_common - DEBUG - test
+2019-01-05 02:35:45,051 - lib.connect_db - DEBUG - test
+2019-01-05 02:35:45,052 - __main__ - DEBUG - test
+2019-01-05 02:35:45,096 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:35:45,112 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:35:51,263 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:35:51,333 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:35:51,997 - lib.nk_common - DEBUG - test
+2019-01-05 02:35:52,026 - lib.connect_db - DEBUG - test
+2019-01-05 02:35:52,027 - __main__ - DEBUG - test
+2019-01-05 02:35:52,063 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:35:52,085 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:36:02,254 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:36:02,258 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:36:02] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:36:02,670 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:36:02] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:36:14,501 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:36:14,579 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:36:15,019 - lib.nk_common - DEBUG - test
+2019-01-05 02:36:15,053 - lib.connect_db - DEBUG - test
+2019-01-05 02:36:15,055 - __main__ - DEBUG - test
+2019-01-05 02:36:15,097 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:36:15,119 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:36:17,184 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:36:17,189 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:36:17] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:36:17,440 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:36:17] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:36:35,464 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:36:35,524 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:36:36,226 - lib.nk_common - DEBUG - test
+2019-01-05 02:36:36,255 - lib.connect_db - DEBUG - test
+2019-01-05 02:36:36,257 - __main__ - DEBUG - test
+2019-01-05 02:36:36,285 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:36:36,306 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:36:47,535 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:36:47,593 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:36:48,006 - lib.nk_common - DEBUG - test
+2019-01-05 02:36:48,030 - lib.connect_db - DEBUG - test
+2019-01-05 02:36:48,031 - __main__ - DEBUG - test
+2019-01-05 02:36:48,067 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:36:48,088 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:37:11,511 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:37:11,561 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:37:12,156 - lib.nk_common - DEBUG - test
+2019-01-05 02:37:12,191 - lib.connect_db - DEBUG - test
+2019-01-05 02:37:12,193 - __main__ - DEBUG - test
+2019-01-05 02:37:12,219 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:37:12,255 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:37:17,379 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:37:17,420 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:37:17,737 - lib.nk_common - DEBUG - test
+2019-01-05 02:37:17,768 - lib.connect_db - DEBUG - test
+2019-01-05 02:37:17,771 - __main__ - DEBUG - test
+2019-01-05 02:37:17,810 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:37:17,823 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:38:27,062 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:38:27,170 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:38:27,683 - lib.nk_common - DEBUG - test
+2019-01-05 02:38:27,711 - lib.connect_db - DEBUG - test
+2019-01-05 02:38:27,713 - __main__ - DEBUG - test
+2019-01-05 02:38:27,742 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:38:27,764 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:38:28,799 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:38:28,837 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:38:29,216 - lib.nk_common - DEBUG - test
+2019-01-05 02:38:29,234 - lib.connect_db - DEBUG - test
+2019-01-05 02:38:29,237 - __main__ - DEBUG - test
+2019-01-05 02:38:29,270 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:38:29,286 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:38:55,802 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:38:55,896 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:38:56,396 - lib.nk_common - DEBUG - test
+2019-01-05 02:38:56,420 - lib.connect_db - DEBUG - test
+2019-01-05 02:38:56,422 - __main__ - DEBUG - test
+2019-01-05 02:38:56,446 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:38:56,465 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:39:41,277 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:39:41,366 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:39:41,866 - lib.nk_common - DEBUG - test
+2019-01-05 02:39:41,971 - lib.connect_db - DEBUG - test
+2019-01-05 02:39:41,973 - __main__ - DEBUG - test
+2019-01-05 02:39:42,012 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:39:42,040 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:39:43,263 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:39:43,267 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:39:43] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:39:43,650 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:39:43] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:39:49,335 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:39:49,338 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:39:49] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:39:49,533 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:39:49] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:40:00,258 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:40:00] "POST / HTTP/1.1" 200 -
+2019-01-05 02:41:10,621 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:41:10,721 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:41:11,211 - lib.nk_common - DEBUG - test
+2019-01-05 02:41:11,237 - lib.connect_db - DEBUG - test
+2019-01-05 02:41:11,238 - __main__ - DEBUG - test
+2019-01-05 02:41:11,266 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:41:11,289 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:41:12,995 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 3 offset 4'
+2019-01-05 02:41:13,000 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:41:13] "GET /?gr=3&pg=4 HTTP/1.1" 200 -
+2019-01-05 02:41:13,434 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:41:13] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:41:16,516 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:41:16] "POST / HTTP/1.1" 200 -
+2019-01-05 02:41:22,706 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:41:22,706 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:41:22,785 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:41:22,789 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:41:22] "GET / HTTP/1.1" 200 -
+2019-01-05 02:41:23,273 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:41:23] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:43:18,611 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:43:18,707 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:43:19,384 - lib.nk_common - DEBUG - test
+2019-01-05 02:43:19,450 - lib.connect_db - DEBUG - test
+2019-01-05 02:43:19,451 - __main__ - DEBUG - test
+2019-01-05 02:43:19,499 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:43:19,514 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:43:21,236 - lib.connect_db - ERROR - name 'get_data' is not defined
+2019-01-05 02:43:21,244 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:43:21] "POST / HTTP/1.1" 200 -
+2019-01-05 02:43:32,782 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:43:32,845 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:43:33,441 - lib.nk_common - DEBUG - test
+2019-01-05 02:43:33,492 - lib.connect_db - DEBUG - test
+2019-01-05 02:43:33,493 - __main__ - DEBUG - test
+2019-01-05 02:43:33,525 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:43:33,543 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:43:34,916 - lib.connect_db - ERROR - name 'get_data' is not defined
+2019-01-05 02:43:34,929 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:43:34] "POST / HTTP/1.1" 200 -
+2019-01-05 02:43:41,705 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:43:41,757 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:43:42,304 - lib.nk_common - DEBUG - test
+2019-01-05 02:43:42,345 - lib.connect_db - DEBUG - test
+2019-01-05 02:43:42,348 - __main__ - DEBUG - test
+2019-01-05 02:43:42,388 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:43:42,426 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:43:44,831 - lib.connect_db - ERROR - name 'this' is not defined
+2019-01-05 02:43:44,838 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:43:44] "POST / HTTP/1.1" 200 -
+2019-01-05 02:44:15,018 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:44:15,074 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:44:15,561 - lib.nk_common - DEBUG - test
+2019-01-05 02:44:15,601 - lib.connect_db - DEBUG - test
+2019-01-05 02:44:15,603 - __main__ - DEBUG - test
+2019-01-05 02:44:15,641 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:44:15,672 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:44:20,792 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:44:20,856 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:44:21,392 - lib.nk_common - DEBUG - test
+2019-01-05 02:44:21,436 - lib.connect_db - DEBUG - test
+2019-01-05 02:44:21,440 - __main__ - DEBUG - test
+2019-01-05 02:44:21,485 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:44:21,514 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:44:23,248 - lib.connect_db - ERROR - get_data() missing 1 required positional argument: 'id'
+2019-01-05 02:44:23,256 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:23] "POST / HTTP/1.1" 200 -
+2019-01-05 02:44:32,761 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:44:32,826 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:44:33,330 - lib.nk_common - DEBUG - test
+2019-01-05 02:44:33,365 - lib.connect_db - DEBUG - test
+2019-01-05 02:44:33,367 - __main__ - DEBUG - test
+2019-01-05 02:44:33,399 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:44:33,420 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:44:34,469 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:44:34,553 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:44:35,024 - lib.nk_common - DEBUG - test
+2019-01-05 02:44:35,061 - lib.connect_db - DEBUG - test
+2019-01-05 02:44:35,063 - __main__ - DEBUG - test
+2019-01-05 02:44:35,098 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:44:35,124 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:44:36,800 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='0d8ca7cb-f6a6-4216-9bca-8e7dcd0d29ed'"
+2019-01-05 02:44:36,813 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:36] "POST / HTTP/1.1" 200 -
+2019-01-05 02:44:49,607 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:44:49,607 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:44:49,678 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:44:49,682 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:49] "GET / HTTP/1.1" 200 -
+2019-01-05 02:44:50,004 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:50] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:44:53,326 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='d9d4c552-f982-4d13-9c50-deed267ddd7c'"
+2019-01-05 02:44:53,343 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:53] "POST / HTTP/1.1" 200 -
+2019-01-05 02:44:55,343 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:44:55,344 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:44:55,401 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:44:55,415 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:55] "GET / HTTP/1.1" 200 -
+2019-01-05 02:44:55,698 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:44:55] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:46:19,974 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:46:20,065 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:46:20,695 - lib.nk_common - DEBUG - test
+2019-01-05 02:46:20,764 - lib.connect_db - DEBUG - test
+2019-01-05 02:46:20,765 - __main__ - DEBUG - test
+2019-01-05 02:46:20,797 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:46:20,815 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:46:22,206 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:46:22,207 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:46:22,318 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:46:22,324 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:46:22] "GET / HTTP/1.1" 200 -
+2019-01-05 02:46:22,691 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:46:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:46:25,173 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='1ad5f86c-9913-4368-a8ce-48775a4188cb'"
+2019-01-05 02:46:25,180 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:46:25] "POST / HTTP/1.1" 200 -
+2019-01-05 02:46:32,030 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:46:32,080 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:46:32,469 - lib.nk_common - DEBUG - test
+2019-01-05 02:46:32,504 - lib.connect_db - DEBUG - test
+2019-01-05 02:46:32,507 - __main__ - DEBUG - test
+2019-01-05 02:46:32,537 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:46:32,554 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:47:14,517 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:47:14,518 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:47:14,645 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:47:14,650 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:47:14] "GET / HTTP/1.1" 200 -
+2019-01-05 02:47:15,040 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:47:15] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:47:17,182 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:47:17,182 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:47:17,249 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:47:17,254 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:47:17] "GET / HTTP/1.1" 200 -
+2019-01-05 02:47:17,583 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:47:17] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:48:57,156 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:48:57,251 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:48:59,711 - lib.nk_common - DEBUG - test
+2019-01-05 02:48:59,796 - lib.connect_db - DEBUG - test
+2019-01-05 02:48:59,798 - __main__ - DEBUG - test
+2019-01-05 02:48:59,901 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:48:59,935 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:49:00,633 - lib.connect_db - DEBUG - execute query=b"SELECT * FROM tb_json where id='6e213103-e12b-492b-a0a5-026581213b73'"
+2019-01-05 02:49:00,636 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:49:00] "POST / HTTP/1.1" 200 -
+2019-01-05 02:50:39,347 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:50:39,348 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 02:50:39,448 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 02:50:39,454 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:50:39] "GET / HTTP/1.1" 200 -
+2019-01-05 02:50:39,809 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 02:50:39] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 02:53:05,265 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:53:05,348 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:53:06,097 - lib.nk_common - DEBUG - test
+2019-01-05 02:53:06,146 - lib.connect_db - DEBUG - test
+2019-01-05 02:53:06,149 - __main__ - DEBUG - test
+2019-01-05 02:53:06,186 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:53:06,205 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:53:28,614 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/lib/connect_db.py', reloading
+2019-01-05 02:53:28,701 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:53:29,382 - lib.nk_common - DEBUG - test
+2019-01-05 02:53:29,412 - lib.connect_db - DEBUG - test
+2019-01-05 02:53:29,413 - __main__ - DEBUG - test
+2019-01-05 02:53:29,445 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:53:29,467 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:53:38,643 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:53:38,694 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:53:39,072 - lib.nk_common - DEBUG - test
+2019-01-05 02:53:39,092 - lib.connect_db - DEBUG - test
+2019-01-05 02:53:39,093 - __main__ - DEBUG - test
+2019-01-05 02:53:39,117 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:53:39,128 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:54:14,741 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:54:14,825 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:54:15,301 - lib.nk_common - DEBUG - test
+2019-01-05 02:54:15,333 - lib.connect_db - DEBUG - test
+2019-01-05 02:54:15,335 - __main__ - DEBUG - test
+2019-01-05 02:54:15,368 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:54:15,379 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:56:13,388 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:56:13,505 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:56:14,073 - lib.nk_common - DEBUG - test
+2019-01-05 02:56:14,099 - lib.connect_db - DEBUG - test
+2019-01-05 02:56:14,101 - __main__ - DEBUG - test
+2019-01-05 02:56:14,137 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:56:14,154 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:56:17,217 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:56:17,297 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:56:17,701 - lib.nk_common - DEBUG - test
+2019-01-05 02:56:17,719 - lib.connect_db - DEBUG - test
+2019-01-05 02:56:17,721 - __main__ - DEBUG - test
+2019-01-05 02:56:17,747 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:56:17,762 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 02:56:24,889 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 02:56:24,949 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 02:56:25,406 - lib.nk_common - DEBUG - test
+2019-01-05 02:56:25,451 - lib.connect_db - DEBUG - test
+2019-01-05 02:56:25,454 - __main__ - DEBUG - test
+2019-01-05 02:56:25,509 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 02:56:25,536 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 03:01:08,139 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 03:01:08,236 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 03:01:08,659 - lib.nk_common - DEBUG - test
+2019-01-05 03:01:08,684 - lib.connect_db - DEBUG - test
+2019-01-05 03:01:08,686 - __main__ - DEBUG - test
+2019-01-05 03:01:08,713 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 03:01:08,734 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 03:01:09,759 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 03:01:09,799 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 03:01:10,151 - lib.nk_common - DEBUG - test
+2019-01-05 03:01:10,173 - lib.connect_db - DEBUG - test
+2019-01-05 03:01:10,174 - __main__ - DEBUG - test
+2019-01-05 03:01:10,217 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 03:01:10,230 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 03:07:08,954 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 03:07:09,107 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 03:07:09,713 - lib.nk_common - DEBUG - test
+2019-01-05 03:07:09,740 - lib.connect_db - DEBUG - test
+2019-01-05 03:07:09,742 - __main__ - DEBUG - test
+2019-01-05 03:07:09,770 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 03:07:09,781 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 03:08:56,638 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 03:08:56,640 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 03:08:56,745 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 03:08:56,751 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 03:08:56] "GET / HTTP/1.1" 200 -
+2019-01-05 03:08:57,169 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 03:08:57] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 03:13:27,893 - werkzeug - INFO -  * Detected change in '/Users/mrpotato/Desktop/work/Flask/api_server/__init__.py', reloading
+2019-01-05 03:13:28,001 - werkzeug - INFO -  * Restarting with stat
+2019-01-05 03:13:28,755 - lib.nk_common - DEBUG - test
+2019-01-05 03:13:28,792 - lib.connect_db - DEBUG - test
+2019-01-05 03:13:28,793 - __main__ - DEBUG - test
+2019-01-05 03:13:28,840 - werkzeug - WARNING -  * Debugger is active!
+2019-01-05 03:13:28,860 - werkzeug - INFO -  * Debugger PIN: 690-518-047
+2019-01-05 15:23:02,130 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:23:02,132 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:23:02,230 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 15:23:02,239 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 15:23:02] "GET / HTTP/1.1" 200 -
+2019-01-05 15:23:02,599 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 15:23:02] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-05 15:44:37,866 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:44:37,869 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:44:37,981 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 15:44:37,998 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 15:44:37] "GET / HTTP/1.1" 200 -
+2019-01-05 15:45:00,939 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:45:00,939 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-05 15:45:01,024 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
+2019-01-05 15:45:01,033 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 15:45:01] "GET / HTTP/1.1" 200 -

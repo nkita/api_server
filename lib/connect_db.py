@@ -3,6 +3,7 @@ import psycopg2
 import psycopg2.extras
 import datetime
 import json
+import uuid
 from lib import nk_common,nk_log
 from configparser import ConfigParser
 from flask import Flask, request, redirect, url_for, jsonify
@@ -27,9 +28,9 @@ class connect_DB():
         sql = "SELECT * FROM tb_json where id='"+id+"'"
         result = execute_query(sql,[])
         if type(result) is list:
-            return _nkmods.response(200, result)
+            return _nkmods.response("Succusess", result)
         else:
-            return _nkmods.response(500, str(result))
+            return _nkmods.response("Error", str(result))
 
     def get_all_data(self,params):
         if _nkmods.get_dicdata(params,"so"):
@@ -48,14 +49,13 @@ class connect_DB():
             _pg = _nkmods.get_dicdata(params,"pg")
         else:
             _pg = 0
-
         sql = "SELECT * FROM tb_json order by "+_so+" "+_ad+" limit %s offset %s"
         result = execute_query(sql,[_gr,_pg])
         if type(result) is list:
-            return _nkmods.response(200, result)
+            return _nkmods.response("Succusess", result)
         else:
             logger.error(str(result))
-            return _nkmods.response(500, "Error")
+            return _nkmods.response("Error", {"msg":"System error"})
 
     def get_parent_id(self, id):
         pass
@@ -67,23 +67,22 @@ class connect_DB():
         with psycopg2.connect(connect_setting) as conn:
             with conn.cursor() as cur:
                 _today = datetime.datetime.today()
-                sql = "INSERT INTO tb_json(id,parent_id,data,add_date,modify_date) values (uuid_generate_v1(),NULL,jsonb(%s),%s,%s)"
+                _id = str(uuid.uuid4());
+                sql = "INSERT INTO tb_json(id,parent_id,data,add_date,modify_date) values (%s,NULL,jsonb(%s),%s,%s)"
                 try:
-                    cur.execute(sql, [json.dumps(json_data),_today,_today])
+                    cur.execute(sql, [_id,json.dumps(json_data),_today,_today])
                 except Exception as e:
                     logger.error(e)
-                    return _nkmods.response(500, "System Error")
-                    # todo
-                    # log e
-        return "aaa"
+                    return _nkmods.response("Error", {"msg":"System Error"})
+        return connect_DB.get_data(self,_id)
 
     def delete_data(self, id):
         sql = "DELETE FROM tb_json where id='"+id+"'"
         result = execute_query(sql,[])
         if type(result) is list:
-            return _nkmods.response(200, result)
+            return _nkmods.response("Succusess", result)
         else:
-            return _nkmods.response(500, str(result))
+            return _nkmods.response("Error", str(result))
 
 
 def fetchall2dict(results, colnames):

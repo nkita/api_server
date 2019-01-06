@@ -1,4 +1,13 @@
 # coding:utf-8
+
+# todo list
+# 1. /children (* ParentID of Top Data is null )  and /<ID>/children 
+# 2. /children?kw= and /<ID>/children?kw=  kw)json only. 全て繰り返しですべてのデータ取得
+# 3. PUT　更新処理
+# 4. DELETE　子供のデータも削除するかどうかのオプションを追加
+# 5. /<ID> POSTメソッド追加　子レコードの追加
+# 4. コード整理
+# 5. コメント記載
 import json
 from flask import Flask, request, redirect, url_for,jsonify
 from lib import nk_log,nk_common,connect_db
@@ -20,9 +29,9 @@ conn = connect_db.connect_DB(__name__)
 # pg(page) : default=1 (1,2,3 ...)
 # so(sort) : default=modify_date sort(add_date,modify_date)
 # ad(asc or desc): default=des (asc or desc)
-# sh(search) : search=keyword
+# kw(search keyword) : search keyword
 
-param = ['gr','pg','so','ad','sh']
+param = ['gr','pg','so','ad','kw']
 param_value = {}
 
 # root document 
@@ -48,14 +57,14 @@ def index():
 	elif request.method == 'POST':
 		try:
 			json_data = request.json
-			conn.insert_data(json_data)
-			return  _nkmods.response(200, "Success")
+			rsp = conn.insert_data(json_data)
+			return  rsp
 		except Exception as e:
 			logger.error(e)
-			return _nkmods.response(500, "[Error] Please input a JSON data. Please set the  'application/json' for Body content type.")
+			return _nkmods.response("Error", "[Error] Please input a JSON data. Please set the  'application/json' for Body content type.")
 	else:
 		return "Not found order"
-
+# todo post id children
 @app.route('/<ID>',methods=['GET','DELETE','PUT'])
 def delete(ID):
 	if request.method == 'GET':
