@@ -10,6 +10,7 @@
 # 5. コメント記載
 import json
 from flask import Flask, request, redirect, url_for,jsonify
+from flask_cors import CORS
 from lib import nk_log,nk_common,connect_db
 from configparser import ConfigParser
 
@@ -19,6 +20,7 @@ config.read('ini/config.ini')
 # ログ初期設定
 
 app = Flask(__name__)
+CORS(app)
 app.config['JSON_AS_ASCII'] = False
 logger = nk_log.nk_Log(__name__)
 _nkmods = nk_common.mods(__name__)

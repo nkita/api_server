@@ -1452,3 +1452,118 @@ LINE 1: SELECT * FROM tb_json order by modify_date desc limit 100 of...
 2019-01-05 15:45:00,939 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
 2019-01-05 15:45:01,024 - lib.connect_db - DEBUG - execute query=b'SELECT * FROM tb_json order by modify_date desc limit 100 offset 0'
 2019-01-05 15:45:01,033 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2019 15:45:01] "GET / HTTP/1.1" 200 -
+2019-01-08 23:24:11,211 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:11,219 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:11,676 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:24:11] "GET / HTTP/1.1" 500 -
+2019-01-08 23:24:13,756 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:13,756 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:13,801 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:24:13] "GET / HTTP/1.1" 500 -
+2019-01-08 23:24:17,383 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:17,383 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:17,404 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:24:17] "GET / HTTP/1.1" 500 -
+2019-01-08 23:24:18,377 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:18,378 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:18,413 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:24:18] "GET / HTTP/1.1" 500 -
+2019-01-08 23:24:45,087 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:45,088 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:24:45,130 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:24:45] "GET / HTTP/1.1" 500 -
+2019-01-08 23:26:02,467 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:26:02,469 - lib.nk_common - ERROR - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2019-01-08 23:26:02,510 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2019 23:26:02] "GET / HTTP/1.1" 500 -
+2019-01-21 23:58:47,547 - lib.nk_common - DEBUG - test
+2019-01-21 23:58:47,773 - lib.connect_db - DEBUG - test
+2019-01-21 23:58:47,777 - __main__ - DEBUG - test
+2019-01-21 23:58:47,942 - werkzeug - INFO -  * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+2019-01-21 23:58:47,956 - werkzeug - INFO -  * Restarting with stat
+2019-01-21 23:58:48,271 - lib.nk_common - DEBUG - test
+2019-01-21 23:58:48,293 - lib.connect_db - DEBUG - test
+2019-01-21 23:58:48,297 - __main__ - DEBUG - test
+2019-01-21 23:58:48,315 - werkzeug - WARNING -  * Debugger is active!
+2019-01-21 23:58:48,384 - werkzeug - INFO -  * Debugger PIN: 218-284-193
+2019-01-22 00:08:21,935 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:21] "GET // HTTP/1.1" 301 -
+2019-01-22 00:08:29,783 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:29,784 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:30,688 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:30,688 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:30,690 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:30,692 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:31,977 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:08:31,982 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:08:32,028 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:32] "GET / HTTP/1.1" 200 -
+2019-01-22 00:08:32,041 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:32] "GET / HTTP/1.1" 200 -
+2019-01-22 00:08:32,055 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/Library/Python/2.7/site-packages/werkzeug/serving.py", line 261, in execute
+    write(data)
+  File "/Library/Python/2.7/site-packages/werkzeug/serving.py", line 227, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2019-01-22 00:08:32,837 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:08:32,844 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:32] "GET / HTTP/1.1" 200 -
+2019-01-22 00:08:35,479 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:35,480 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:08:35,577 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:08:35,584 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:35] "GET / HTTP/1.1" 200 -
+2019-01-22 00:08:55,119 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:55] "GET /' HTTP/1.1" 200 -
+2019-01-22 00:08:56,355 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:08:56] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-22 00:09:01,982 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:01,984 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:02,173 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:09:02,304 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:09:02] "GET / HTTP/1.1" 200 -
+2019-01-22 00:09:03,099 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:09:03] "GET /favicon.ico HTTP/1.1" 200 -
+2019-01-22 00:09:34,869 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:34,870 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:35,001 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:09:35,018 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:09:35] "GET / HTTP/1.1" 200 -
+2019-01-22 00:09:39,080 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:39,081 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:39,213 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:09:39,221 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:09:39] "GET / HTTP/1.1" 200 -
+2019-01-22 00:09:44,610 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:44,611 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:09:44,697 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:09:44,708 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:09:44] "GET / HTTP/1.1" 200 -
+2019-01-22 00:10:19,675 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:19,677 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:19,839 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:10:19,851 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:10:19] "GET / HTTP/1.1" 200 -
+2019-01-22 00:10:24,032 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:24,034 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:24,250 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:10:24,263 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:10:24] "GET / HTTP/1.1" 200 -
+2019-01-22 00:10:35,101 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:35,102 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:35,440 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:10:35,453 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:10:35] "GET / HTTP/1.1" 200 -
+2019-01-22 00:10:42,930 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:42,932 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:43,091 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:10:43,112 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:10:43] "GET / HTTP/1.1" 200 -
+2019-01-22 00:10:47,454 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:47,454 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:10:47,551 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:10:47,557 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:10:47] "GET / HTTP/1.1" 200 -
+2019-01-22 00:11:08,249 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:08,250 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:08,575 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:11:08,586 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:11:08] "GET / HTTP/1.1" 200 -
+2019-01-22 00:11:14,382 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:14,382 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:14,491 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:11:14,499 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:11:14] "GET / HTTP/1.1" 200 -
+2019-01-22 00:11:14,507 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:14,508 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:14,710 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:11:14,724 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:11:14] "GET / HTTP/1.1" 200 -
+2019-01-22 00:11:24,096 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:24,097 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:24,247 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:11:24,254 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:11:24] "GET / HTTP/1.1" 200 -
+2019-01-22 00:11:26,196 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:26,197 - lib.nk_common - ERROR - int() argument must be a string or a number, not 'NoneType'
+2019-01-22 00:11:26,288 - lib.connect_db - DEBUG - execute query=SELECT * FROM tb_json order by modify_date desc limit 100 offset 0
+2019-01-22 00:11:26,297 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2019 00:11:26] "GET / HTTP/1.1" 200 -
