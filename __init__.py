@@ -32,8 +32,9 @@ conn = connect_db.connect_DB(__name__)
 # so(sort) : default=modify_date sort(add_date,modify_date)
 # ad(asc or desc): default=des (asc or desc)
 # kw(search keyword) : search keyword
+# pid(parent id): parent id
 
-param = ['gr','pg','so','ad','kw']
+param = ['gr','pg','so','ad','kw','pid']
 param_value = {}
 
 # root document 
