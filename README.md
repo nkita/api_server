@@ -9,13 +9,14 @@
 	CentOS 7
 2. yum 
 	```
-	yum -y install httpd mod_wsgi
+	yum -y install httpd mod_wsgi gcc
 	yum -y install epel-release
 	yum -y install git
 	yum -y install python36 python36-pip
 	wget https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm  
 	rpm -ivh pgdg-centos96-9.6-3.noarch.rpm
 	yum -y install postgresql96-server postgresql96-devel postgresql96-contrib
+	/usr/pgsql-9.6/bin/postgresql96-setup initdb
 	```
 	
 3. pip install
